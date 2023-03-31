@@ -2,7 +2,7 @@ import React  from 'react'
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
 import Home from './Pages/Home.jsx'
 import RootLayout from './Components/RootLayout.jsx'
-import SignupPage from './Components/SignupPage.jsx'
+import SignupPage from './Pages/SignupPage.jsx'
 
 
 const router = createBrowserRouter(
