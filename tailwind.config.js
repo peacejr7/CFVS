@@ -44,6 +44,7 @@ module.exports = {
     backgroundColor: ({ theme }) => theme('colors'),
     backgroundImage: {
       none: 'none',
+      'homeimg': "url('https://www.igihe.com/local/cache-vignettes/L600xH400/abayobozi_muri_rcs_bitabiriye_ibi_biganiro-be629-2-1c997.jpg?1664739913')",
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
       'gradient-to-tr': 'linear-gradient(to top right, var(--tw-gradient-stops))',
       'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
