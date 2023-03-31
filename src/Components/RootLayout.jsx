@@ -21,7 +21,7 @@ const RootLayout = () => {
         <li className='pl-32 pt-5 hover:text-white visited:text-white'><NavLink to={'posts'}> Schedule</NavLink></li>
         <li className='pl-32 pt-5 hover:text-white visited:text-white'><NavLink to={'newPost'}>About Us</NavLink></li>
         <li className='pl-32 pt-5 pr-5 hover:text-white visited:text-white'><NavLink to={'help'}>Help</NavLink></li>
-        <li className='pl-32 pt-5 pr-5  hover:text-black visited:text-white'><NavLink className='p-2 border-2 border-black rounded-md' to={'help'}>Log in</NavLink></li>
+        <li className='pl-32 pt-5 pr-5  hover:text-black visited:text-white'><NavLink className='p-2 border-2 border-black rounded-md' to={'sign up'}>Log in</NavLink></li>
       </ul>
       
     </nav>
