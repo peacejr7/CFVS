@@ -20,31 +20,31 @@ const Home = () => {
     <h1 className='py-4 text-6xl text-black font-bold '>Our Partners</h1>
    </div>
    <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3'>
-   <div className=" h-[500px] w-[95%] mt-4 bg-black text-[#D4C69D]   rounded overflow-hidden shadow-lg ml-4  hover:scale-y-95 hover:scale-x-95">
+   <div className=" h-[500px] w-[95%] mt-4 bg-white text-black   rounded overflow-hidden shadow-lg ml-4  hover:scale-y-95 hover:scale-x-95">
   <img class="w-full px-20 h-48" src="https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-LOGO.png" alt="Sunset in the mountains"/>
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 text-center ">Rwanda Correctional Services</div>
-    <p class="text-[#D4C69D] text-base">
+    <p class="text-black text-base">
     Rwanda Correctional   Service (RCS) is an essential component of Rwanda’s Justice, Rule of Law and Order Sector (JRLOS).   RCS   has the noble mandate of protecting the society from offenders incarcerated by due process of the law.  
     </p>
   </div>
   
 </div>
-<div className=" h-[500px] w-[95%] mt-4 bg-black text-[#D4C69D]   rounded overflow-hidden shadow-lg ml-4  hover:scale-y-95 hover:scale-x-95">
+<div className=" h-[500px] w-[95%] mt-4 bg-white text-black   rounded overflow-hidden shadow-lg ml-4  hover:scale-y-95 hover:scale-x-95">
   <img class="w-full" src="https://solvit.africa/assets/images/logo/logo.png" alt="Sunset in the mountains"/>
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 text-center">Solvit Africa</div>
-    <p class="text-[#D4C69D] text-base">
+    <p class="text-black text-base">
     We are on a mission to equip young Africans with the necessary technical and complementary soft skills needed to thrive and excel in today’s tech space
     </p>
   </div>
   
 </div>
-<div className=" h-[500px] w-[95%] mt-4 bg-black text-[#D4C69D]   rounded overflow-hidden shadow-lg ml-4  hover:scale-y-95 hover:scale-x-95">
+<div className=" h-[500px] w-[95%] mt-4 bg-white text-black   rounded overflow-hidden shadow-lg ml-4  hover:scale-y-95 hover:scale-x-95">
   <img class="w-full px-20 h-48" src="https://www.judiciary.gov.rw/typo3conf/ext/site_config/Resources/Public/images/logo.png" alt="Sunset in the mountains"/>
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 text-center">THE JUDICIARY OF RWANDA</div>
-    <p class="text-[#D4C69D] text-base">
+    <p class="text-black text-base">
     As stipulated by the Constitution of the Republic of Rwanda of 2003 revised in 2015, especially in article 149, and in accordance to article 5 and 6 of the Law n° 012/2018 of 04/04/2018 determining the organisation and functioning of the Judiciary. The High Council of the Judiciary is the supreme governing organ of the Judiciary. It sets general guidelines governing the organisation of the Judiciary.
     </p>
   </div>

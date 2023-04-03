@@ -16,7 +16,7 @@ const RootLayout = () => {
     }} className=' ml-40 pt-10   md:hidden cursor-pointer'>
         <ion-icon className='' name={open ? "close":"menu"}></ion-icon>
       </div>
-      <ul className={`md:flex grid justify-center pt-4 ${open ? "":"hidden"} text-base justify-center  `}>
+      <ul className={`md:flex grid justify-end pt-4 ${open ? "":"hidden"} text-base justify-center  `}>
         <li className=' pt-5 hover:text-white'><NavLink to={'/'}>Home</NavLink></li>
         <li className=' sm:pl-1 md:pl-4 lg:pl-12 xl:pl-20  pt-5 hover:text-white visited:text-white'><NavLink to={'posts'}> Schedule</NavLink></li>
         <li className=' sm:pl-1 md:pl-4 lg:pl-12 xl:pl-20 pt-5 hover:text-white visited:text-white'><NavLink to={'newPost'}>About Us</NavLink></li>
