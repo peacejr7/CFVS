@@ -9,7 +9,7 @@ const Home = () => {
       <h1 className='pt-12 text-[#D4C69D] text-lg font-bold text-center'>Stay connect with your loved ones who are incarcerated</h1>
       <div className='flex justify-center mt-20 pb-24'>
       <button className="bg-[#D4C69D] hover:scale-y-95 hover:scale-x-95 text-black font-bold text-sm py-2 px-6 rounded ">
-  <a href='https://rcs.gov.rw/en/rcs-prisons-facilities/'>Explore Facilities</a>
+  <a href='explore'>Explore Facilities</a>
 </button>
       </div>
     </div>
