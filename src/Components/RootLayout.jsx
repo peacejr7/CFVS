@@ -1,13 +1,14 @@
 import {NavLink, Outlet} from 'react-router-dom'
 import { useState } from 'react'
+import WhLogo from '../Images/WhLogo.png'
 
 const RootLayout = () => {
   const [open,setOpen]=useState()
   return (
     <div className='layout'>
     <header className=' flex bg-[#D4C69D] '>
-    <div className='ml-20 sm:ml-4 md:mr-12 lg:mr-20 xl:mr-40  md:ml-20 lg:ml-40 mt-5'>
-        <img className='h-20 w-20' src='https://rcs.gov.rw/wp-content/uploads/2022/03/RCS-LOGO-1024x1012.png' alt='#'/>
+    <div className='ml-20 sm:ml-4 md:mr-12 lg:mr-20 xl:mr-40  md:ml-20 lg:ml-40 mt-2'>
+        <img className='h-24 w-24' src={WhLogo} alt='#'/>
     </div>
     <nav className='  text-[#2D1707] text-xl font-bold md:h-20 mb-4 md:border-b-2 border-[#2D1707] mr-14'>
     
