@@ -19,7 +19,7 @@ const RootLayout = () => {
       </div>
       <ul className={`md:flex grid justify-end pt-4 ${open ? "":"hidden"} text-base justify-center  `}>
         <li className=' pt-5 hover:text-white'><NavLink to={'/'}>Home</NavLink></li>
-        <li className=' sm:pl-1 md:pl-4 lg:pl-12 xl:pl-20  pt-5 hover:text-white visited:text-white'><NavLink to={'sign in'}> Schedule</NavLink></li>
+        <li className=' sm:pl-1 md:pl-4 lg:pl-12 xl:pl-20  pt-5 hover:text-white visited:text-white'><NavLink to={'schedule'}> Schedule</NavLink></li>
         <li className=' sm:pl-1 md:pl-4 lg:pl-12 xl:pl-20 pt-5 hover:text-white visited:text-white'><NavLink to={'about us'}>About Us</NavLink></li>
         <li className=' sm:pl-1 md:pl-4  lg:pl-12 xl:pl-20 pt-5 pr-5 hover:text-white visited:text-white'><NavLink to={'help'}>Help</NavLink></li>
         <li className=' sm:pl-1 md:pl-4  lg:pl-12 xl:pl-20 pt-5    hover:scale-x-95'><NavLink className='p-2 border-2 border-[#2D1707] rounded-md bg-[#2D1707] text-[#D4C69D] hover:text-white' to={'sign in'}>Log in</NavLink></li>
@@ -29,7 +29,7 @@ const RootLayout = () => {
     </nav>
     </header>
     <main>
-        <Outlet/>
+    <Outlet/>
     </main>
 
     </div>

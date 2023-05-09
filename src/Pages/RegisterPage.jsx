@@ -57,7 +57,7 @@ const RegisterPage = () => {
         <input required placeholder='rewrite password' type='password' name='confirmPassword' className='border-2 border-white bg-transparent rounded-md'/>
         </div>
         
-      <label className="flex items-center mb-4">
+      <label className="flex items-center mb-4 mt-4">
         <input required
           type="checkbox"
           className="form-checkbox h-5 w-5 text-[#2D1707]"
